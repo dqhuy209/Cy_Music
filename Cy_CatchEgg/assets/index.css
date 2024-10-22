@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.game-container {
+  position: relative;
+  width: 80%;
+  height: 95vh;
+  margin-top: 15px;
+  border: 2px solid #000;
+  background-color: #fff;
+  overflow: hidden;
+  border: 5px solid #4CAF50;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #ffcccb, #ffeb3b);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.basket {
+  position: absolute;
+  bottom: 2px;
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  transition: left 0.5s ease;
+  background-color: #d18e6a;
+  border: 2px solid #a05b3d
+}
+
+
+.egg {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 70px;
+  background: radial-gradient(circle at 50% 50%, #fff7e1, #f4c27a);
+  border-radius: 50% 50% 60% 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #333;
+  border: 2px solid #ff7f50;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.score {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 2px solid #388E3C;
+}
